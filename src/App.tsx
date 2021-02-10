@@ -1,8 +1,9 @@
 import React from 'react';
+import { Container } from "@material-ui/core";
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       <header className="App-header">
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -16,7 +17,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </Container>
   );
 }
 
