@@ -4,7 +4,7 @@ import ISurveyAnswer from "../interfaces/ISurveyAnswer";
 function SurveyResultsResponse({ text, answerOccurrences, answerOccurrencePercentage }: ISurveyAnswer) {
   if (answerOccurrences && answerOccurrencePercentage) {
     return (
-      <li>{answerOccurrencePercentage} of users ({answerOccurrences}) answered {text}</li>
+      <li><strong>{answerOccurrencePercentage}</strong> of users ({answerOccurrences}) answered <strong>{text}</strong></li>
     )
   } else {
     return (<li>{text}</li>)
