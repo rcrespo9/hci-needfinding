@@ -25,7 +25,7 @@ function App() {
     <>
       <CssBaseline />
       <Container>
-        <SurveyResults header="Survey Responses" responses={surveyResponses} textOnlyAnswers={['What challenges do you face when doing laundry at a shared laundry facility?']} />
+        <SurveyResults header="Survey Responses" responses={surveyResponses} textOnlyAnswers={['Do you have any additional thoughts about Comixology\'s search feature?']} />
       </Container>
     </>
   );
